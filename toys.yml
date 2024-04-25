@@ -1,0 +1,14 @@
+period-complementation:
+  name: liantong_data_from2018-12-19to2019-01-31_8234
+  not_full_period: 3.3
+  full_period: 4
+  frequency_length: 24
+algorithm:
+  name: liantong_data_from2018-12-19to2019-01-31_8234
+  not_full_period: 2.3
+  full_period: 3
+  frequency_length: 24
+old-method:
+  name: yinlian_value_from2020-11-10to2020-12-07_8438
+  full_period: 6
+  frequency_length: 24
