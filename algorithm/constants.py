@@ -1,0 +1,2 @@
+MAX_LENGTH = 2**30 - 1
+MAX_VALUE = 2**64 - 1

@@ -1,0 +1,8 @@
+**/__pycache__/**
+
+.vscode/**
+
+exp_results/**
+figures/**
+
+nohup.out

@@ -1,0 +1,27 @@
+[project]
+name = "encoding-periodic-ng"
+version = "0.1.0"
+description = ""
+authors = [{ name = "anonymous", email = "anonymous@anonymous.com" }]
+license = { text = "GPL-3.0-or-later" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy (>=2.2.6,<3.0.0)",
+  "pandas (>=2.2.3,<3.0.0)",
+  "matplotlib (>=3.10.3,<4.0.0)",
+  "bitstring (>=4.3.1,<5.0.0)",
+  "pytest (>=8.3.5,<9.0.0)",
+  "statsmodels (>=0.14.4,<0.15.0)",
+  "scipy (>=1.15.3,<2.0.0)",
+  "openpyxl (>=3.1.5,<4.0.0)",
+  "jinja2 (>=3.1.6,<4.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
